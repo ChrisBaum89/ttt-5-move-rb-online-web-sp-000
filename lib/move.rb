@@ -9,5 +9,5 @@ end
 # code your input_to_index and move method here!
 def input_to_index(user_input)
   puts "Where would you like to go?"
-  converted_input = user_input.to_i #converts to integer
+  converted_input = user_input.to_i - 1 #converts to integer and subtracts 1
 end
