@@ -9,6 +9,6 @@ end
 # code your input_to_index and move method here!
 def input_to_index
   puts "Where would you like to go?"
-  user_input = gets.strip
+  user_input = gets.strip #gets user input
   converted_input = user_input - 1 #subtracts 1 from the user input
 end
