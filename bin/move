@@ -10,6 +10,6 @@ input = gets.strip
 
 input_to_index(input)
 
-#move(board, converted_input, "X")
+move(board, converted_input, "X")
 
 #display_board(board)
