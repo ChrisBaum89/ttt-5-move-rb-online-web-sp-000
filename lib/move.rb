@@ -7,10 +7,8 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index(input_pos)
-  input_pos = gets.strip.to_i - 1
-end
-
-def move
-
+def input_to_index
+  puts "Where would you like to go?"
+  user_input = gets.strip
+  converted_input = user_input - 1 #subtracts 1 from the user input
 end
