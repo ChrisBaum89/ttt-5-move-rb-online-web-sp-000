@@ -12,6 +12,6 @@ def input_to_index(user_input)
   converted_input = user_input.to_i - 1 #converts to integer and subtracts 1
 end
 
-def move(board, index, "X")
+def move(board, index, value)
   board[index] = value
 end
